@@ -182,7 +182,8 @@ trait PdfMakerUtilities
 
     public function insertPrintCSS()
     {
-        $css = <<<'EOT'
+        $css =
+        <<<'EOT'
         table.page-container {
             page-break-after: always;
             min-width: 100%;
